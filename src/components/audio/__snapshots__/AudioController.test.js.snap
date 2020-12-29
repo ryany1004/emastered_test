@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a AudioController 1`] = `
+<div
+  className="above-the-fold__content page-delays page-loaded kill-delays"
+>
+  <div>
+    <div
+      className="container app-block"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col position-inherit"
+        >
+          <h1
+            className="hide-on-action"
+            id="heroHeading"
+          >
+            Master
+            <br />
+             Your
+            <br />
+             Track,
+            <br />
+            <span>
+              Instantly
+            </span>
+          </h1>
+          <div
+            className="hide-on-action above-the-fold__content-text  position-inherit"
+          >
+            <p>
+              An online mastering engine that’s fast, easy to use, and sounds incredible
+            </p>
+            <p>
+              <b>
+                Made by Grammy-winning engineers, powered by AI
+              </b>
+            </p>
+            <p
+              className="above-the-fold__notification"
+              id="uploadFileNotification"
+            >
+              <img
+                className=" lazyloaded"
+                data-src="https://static.emastered.com/img/icon_arrow_down-1.svg"
+                src="https://static.emastered.com/img/icon_arrow_down-1.svg"
+              />
+              <span
+                className="above-the-fold__notification--upload"
+              >
+                Upload your track and hear it now for free
+              </span>
+              <span
+                className="above-the-fold__notification--upload-2 d-none"
+              >
+                Now upload your 
+                <span
+                  className="remaining-file-text"
+                />
+                 track
+              </span>
+              <img
+                className=" lazyloaded"
+                data-src="https://static.emastered.com/img/icon_arrow_down-1.svg"
+                src="https://static.emastered.com/img/icon_arrow_down-1.svg"
+              />
+            </p>
+            <a
+              className="button-grad"
+              href="#"
+              id="uploadTrackMobile"
+              onClick={[Function]}
+            >
+              UPLOAD A TRACK
+              <svg
+                height="16px"
+                version="1.1"
+                viewBox="0 0 16 16"
+                width="16px"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  id="Home"
+                  stroke="none"
+                  stroke-width="1"
+                >
+                  <g
+                    fill="#fff"
+                    id="Desktop_Full-Length"
+                    transform="translate(-1200.000000, -7279.000000)"
+                  >
+                    <g
+                      id="Group-18"
+                      transform="translate(1052.000000, 7263.000000)"
+                    >
+                      <polygon
+                        id="icon_arrow_right"
+                        points="164 22.989899 164 25.010101 151.878788 25.010101 157.434343 30.5656566 156 32 148 24 156 16 157.434343 17.4343434 151.878788 22.989899"
+                        transform="translate(156.000000, 24.000000) rotate(-180.000000) translate(-156.000000, -24.000000) "
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="upload hide-on-action"
+    >
+      <div
+        className="upload__handle upload__switch upload__handle-reference"
+      >
+        <div
+          className="upload__handle upload__handle--cell em-original"
+        >
+          <svg
+            className="progress-ring"
+            height="184"
+            width="184"
+          >
+            <circle
+              className="progress-ring__circle"
+              cx="92"
+              cy="92"
+              fill="transparent"
+              height="184"
+              r="85"
+              stroke="#3d3d3d"
+              stroke-width="10"
+              width="184"
+            />
+          </svg>
+          <div
+            className="rotor"
+          >
+            <img
+              className="upload__handle--cell-bg"
+              src="https://static.emastered.com/img/upload.svg"
+            />
+            <img
+              className="upload__handle--cell-bg upload__handle--cell-bg-alter d-none"
+              src="https://static.emastered.com/img/Circle.svg"
+            />
+          </div>
+          <input
+            accept="audio/*,.mp3,.wav,.m4a,.aif,.wma,.flac,.aiff,.aax,.ogg"
+            className="upload__handle-input"
+            id="original-fileUpload"
+            name="file"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseOut={[Function]}
+            type="file"
+          />
+          <div
+            className="upload__handle-content"
+            id="original-uploadContent"
+          >
+            <img
+              className="upload__handle--cell-img"
+              src="https://static.emastered.com/img/icon_upload-1.svg"
+            />
+            <h4
+              className="file-upload-progress"
+            >
+              0%
+            </h4>
+            <h4
+              className="persistant"
+            >
+              Original
+            </h4>
+            <h4
+              className="unpersistant"
+            >
+              Drop your track here
+              <span>
+                or click to browse
+              </span>
+            </h4>
+          </div>
+        </div>
+        <div
+          className="upload__handle upload__handle--cell upload__handle--cell-last em-reference"
+        >
+          <svg
+            className="progress-ring"
+            height="184"
+            width="184"
+          >
+            <circle
+              className="progress-ring__circle"
+              cx="92"
+              cy="92"
+              fill="transparent"
+              height="184"
+              r="85"
+              stroke="#3d3d3d"
+              stroke-width="10"
+              width="184"
+            />
+          </svg>
+          <div
+            className="rotor"
+          >
+            <img
+              className="upload__handle--cell-bg ls-is-cached lazyloaded"
+              src="https://static.emastered.com/img/upload.svg"
+            />
+            <img
+              className="lazyload upload__handle--cell-bg upload__handle--cell-bg-alter d-none"
+              src="https://static.emastered.com/img/Circle.svg"
+            />
+          </div>
+          <input
+            accept="audio/*,.mp3,.wav,.m4a,.aif,.wma,.flac,.aiff,.aax,.ogg"
+            className="upload__handle-input"
+            id="reference-fileUpload"
+            name="file"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseOut={[Function]}
+            type="file"
+          />
+          <div
+            className="upload__handle-content"
+            id="reference-uploadContent"
+          >
+            <img
+              className="upload__handle--cell-img"
+              src="https://static.emastered.com/img/icon_upload-1.svg"
+            />
+            <h4
+              className="file-upload-progress"
+            >
+              0%
+            </h4>
+            <h4
+              className="persistant"
+            >
+              REFERENCE
+            </h4>
+            <h4
+              className="unpersistant"
+            >
+              Drop your track here
+              <span>
+                or click to browse
+              </span>
+            </h4>
+          </div>
+        </div>
+        <div
+          className="upload__handle upload__handle--button d-none"
+        >
+          <a
+            className="button round"
+            id="cancelUpload"
+          >
+            CANCEL
+          </a>
+          <a
+            className="toggleMasteringOptions button round"
+          >
+            OPTIONS
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="can hide-on-action"
+    >
+      <div
+        className="can-toggle"
+        id="normalReferenceToggle"
+      >
+        <input
+          id="toggleReferenceUpload"
+          type="checkbox"
+          value={false}
+        />
+        <label
+          htmlFor="toggleReferenceUpload"
+          onClick={[Function]}
+        >
+          <div
+            className="can-toggle__switch"
+            data-checked="REFERENCE"
+            data-unchecked="NORMAL"
+          />
+        </label>
+      </div>
+      <a
+        className="toggleMasteringOptions button round"
+        onClick={[Function]}
+      >
+        OPTIONS
+      </a>
+    </div>
+    <img
+      className="above-the-fold__down scroll-down-btn hide-on-action lazyloaded"
+      data-scrollto="hearTheDifferenceSection"
+      data-src="https://static.emastered.com/img/icon_scroll_down.svg"
+      src="https://static.emastered.com/img/icon_scroll_down.svg"
+    />
+  </div>
+</div>
+`;

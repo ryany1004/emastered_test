@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a MasteringPreview 1`] = `
+<div
+  className="em-mastering sc-visible"
+  id="masteringPreview"
+>
+  <div
+    className="em-mastering__header"
+  >
+    <div
+      className="em-mastering__header-left d-none d-lg-block"
+    >
+      <span>
+        Title
+      </span>
+      <h3
+        className="em-mastering__header-left--editable"
+      >
+        <p
+          className="previewTrackTitle"
+        >
+          
+        </p>
+      </h3>
+    </div>
+    <div
+      className="em-mastering__header-right"
+    >
+      <a>
+        <i
+          className="fas fa-window-minimize"
+        />
+      </a>
+      <a
+        className="closeMasteringModal"
+        onClick={[Function]}
+      >
+        <img
+          src="https://static.emastered.com/img/x_gray.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="em-mastering__header-mobile"
+    >
+      <a
+        href="#"
+        id="backButton"
+      >
+        <i
+          className="fa fa-chevron-left"
+        />
+      </a>
+      <span
+        id="panelTitle"
+      >
+        Playback
+      </span>
+      <div
+        className="em-mastering__header-left--more"
+        id="previewHeaderDropdownBtn"
+      >
+        <div
+          className="dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-toggle="dropdown"
+            id="dropdownMenuButton5"
+          >
+            <i
+              className="fa fa-ellipsis-h"
+            />
+          </a>
+          <div
+            aria-labelledby="dropdownMenuButton5"
+            className="dropdown-menu dropdown-menu-right"
+            id="previewHeaderDropdownMenu"
+          >
+            <a
+              className="dropdown-item"
+              href="#"
+              id="saveToLibBtn"
+            >
+              Save to Library
+            </a>
+            <a
+              className="dropdown-item"
+              href="../.."
+              id="newMasterHeader"
+            >
+              New Master
+            </a>
+          </div>
+        </div>
+      </div>
+      <a
+        className="closeMasteringModal"
+      >
+        <img
+          src="https://static.emastered.com/img/x_gray.svg"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="em-mastering__sidebar"
+  >
+    <div
+      className="em-mastering__sidebar-collapse"
+      id="accordion"
+      role="tablist"
+    >
+      <div
+        aria-controls="playback"
+        aria-selected="true"
+        className="em-mastering__sidebar-collapse-item playback-sidebar active"
+        data-toggle="tab"
+        href="#playback"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-play"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Playback
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        aria-controls="advanced"
+        aria-selected="true"
+        className="em-mastering__sidebar-collapse-item"
+        data-toggle="tab"
+        href="#advanced"
+        id="advancedTrigger"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-sliders-h"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3
+              className="d-block d-lg-none"
+            >
+              Settings
+            </h3>
+            <h3
+              className="d-none d-lg-block"
+            >
+              Mastering Options
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="em-mastering__sidebar-collapse-item preset-sidebar"
+        id="previewDownloadBtnWrapper"
+      >
+        <a
+          className="previewDownloadBtn button pink"
+          download=""
+          href=""
+        >
+           
+          <img
+            src="https://static.emastered.com/img/download.svg"
+          />
+          Download
+        </a>
+      </div>
+      <div
+        aria-controls="refs"
+        aria-selected="false"
+        className="em-mastering__sidebar-collapse-item reference-track-sidebar"
+        data-panel="refs"
+        data-toggle="tab"
+        href="#refs"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-crosshairs"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Reference
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        aria-controls="presets"
+        aria-selected="false"
+        className="em-mastering__sidebar-collapse-item preset-sidebar"
+        data-panel="presets"
+        data-toggle="tab"
+        href="#presets"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-star"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Presets
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="em-mastering__main"
+    id="mainPanel"
+  >
+    <div
+      className="tab-content d-flex justify-content-center"
+    >
+      <audio
+        autoPlay="autoplay"
+        autobuffer="autobuffer"
+        controls="controls"
+        style={
+          Object {
+            "display": "inline-block",
+            "margin": "50px auto",
+          }
+        }
+      >
+        <source
+          src=""
+        />
+      </audio>
+    </div>
+  </div>
+  <div
+    className="em-mastering__footer"
+  >
+    <div
+      className="em-mastering__footer-wrapper"
+      id="masteringFooter"
+    >
+      <a
+        className="previewDownloadBtn button pink"
+        download=""
+        href=""
+        id="previewDownloadBtn"
+      >
+        <img
+          src="https://static.emastered.com/img/download.svg"
+        />
+        Download
+      </a>
+    </div>
+  </div>
+</div>
+`;

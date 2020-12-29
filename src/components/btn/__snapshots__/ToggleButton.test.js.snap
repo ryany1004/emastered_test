@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a ToggleButton 1`] = `
+<div
+  className="can-toggle"
+  id="normalReferenceToggle"
+>
+  <input
+    id="toggleReferenceUpload"
+    type="checkbox"
+  />
+  <label
+    htmlFor="toggleReferenceUpload"
+    onClick={[Function]}
+  >
+    <div
+      className="can-toggle__switch"
+      data-checked="REFERENCE"
+      data-unchecked="NORMAL"
+    />
+  </label>
+</div>
+`;

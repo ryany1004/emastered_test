@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a MasteringOptions 1`] = `
+<div
+  className="em-mastering sc-visible options-only"
+  id="masteringPreview"
+>
+  <div
+    className="em-mastering__header"
+  >
+    <div
+      className="em-mastering__header-left d-none"
+    >
+      <span
+        className="d-none"
+      >
+        Title
+      </span>
+      <h3
+        className="em-mastering__header-left--editable"
+      >
+        <p
+          className="previewTrackTitle"
+        >
+          -
+        </p>
+      </h3>
+    </div>
+    <div
+      className="em-mastering__header-right"
+    >
+      <a>
+        <i
+          className="fas fa-window-minimize"
+        />
+      </a>
+      <a
+        className="closeMasteringModal"
+        onClick={[Function]}
+      >
+        <img
+          src="https://static.emastered.com/img/x_gray.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="em-mastering__header-mobile"
+    >
+      <a
+        href="#"
+        id="backButton"
+      >
+        <i
+          className="fa fa-chevron-left"
+        />
+      </a>
+      <span
+        id="panelTitle"
+      >
+        Settings
+      </span>
+      <div
+        className="em-mastering__header-left--more"
+        id="previewHeaderDropdownBtn"
+      >
+        <div
+          className="dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-toggle="dropdown"
+            id="dropdownMenuButton5"
+          >
+            <i
+              className="fa fa-ellipsis-h"
+            />
+          </a>
+          <div
+            aria-labelledby="dropdownMenuButton5"
+            className="dropdown-menu dropdown-menu-right"
+            id="previewHeaderDropdownMenu"
+          >
+            <a
+              className="dropdown-item"
+              href="#"
+              id="saveToLibBtn"
+            >
+              Save to Library
+            </a>
+            <a
+              className="dropdown-item"
+              href="../.."
+              id="newMasterHeader"
+            >
+              New Master
+            </a>
+          </div>
+        </div>
+      </div>
+      <a
+        className="closeMasteringModal"
+        onClick={[Function]}
+      >
+        <img
+          src="https://static.emastered.com/img/x_gray.svg"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="em-mastering__sidebar"
+  >
+    <div
+      className="em-mastering__sidebar-collapse"
+      id="accordion"
+      role="tablist"
+    >
+      <div
+        aria-controls="playback"
+        aria-selected="true"
+        className="em-mastering__sidebar-collapse-item playback-sidebar"
+        data-toggle="tab"
+        href="#playback"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-play"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Playback
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        aria-controls="advanced"
+        aria-selected="true"
+        className="em-mastering__sidebar-collapse-item active"
+        data-toggle="tab"
+        href="#advanced"
+        id="advancedTrigger"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-sliders-h"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3
+              className="d-block d-lg-none"
+            >
+              Settings
+            </h3>
+            <h3
+              className="d-none d-lg-block"
+            >
+              Mastering Options
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="em-mastering__sidebar-collapse-item preset-sidebar"
+        id="previewDownloadBtnWrapper"
+      >
+        <a
+          className="previewDownloadBtn button pink"
+          href="#"
+        >
+           
+          <img
+            src="https://static.emastered.com/img/download.svg"
+          />
+          Download
+        </a>
+      </div>
+      <div
+        aria-controls="refs"
+        aria-selected="false"
+        className="em-mastering__sidebar-collapse-item reference-track-sidebar"
+        data-panel="refs"
+        data-toggle="tab"
+        href="#refs"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-crosshairs"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Reference
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+      <div
+        aria-controls="presets"
+        aria-selected="false"
+        className="em-mastering__sidebar-collapse-item preset-sidebar"
+        data-panel="presets"
+        data-toggle="tab"
+        href="#presets"
+        role="tab"
+      >
+        <div
+          className="em-mastering__sidebar-collapse-item--heading"
+        >
+          <i
+            className="fa fa-star"
+          />
+          <div
+            className="em-mastering__sidebar-collapse-item--heading-wrapper"
+          >
+            <span />
+            <h3>
+              Presets
+            </h3>
+          </div>
+          <img
+            src="https://static.emastered.com/img/icon_chevron_white.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="em-mastering__main"
+    id="mainPanel"
+  >
+    <div
+      className="tab-content"
+    >
+      <div
+        aria-expanded="false"
+        aria-labelledby="advanced-tab"
+        className="tab-pane fade active show"
+        id="advanced"
+        role="tabpanel"
+      >
+        <div
+          className="em-mastering__main-left em-mastering__main-left--options"
+          id="settingsList"
+        >
+          <ul
+            className="em-mastering__main-left-options nav nav-tabs kill"
+          >
+            <li
+              className="nav-item active"
+              data-option="compressor"
+            >
+              <a
+                className="nav-link active"
+                data-toggle="tab"
+                href="#compressor"
+                onClick={[Function]}
+              >
+                <h4>
+                  Compressor Intensity
+                </h4>
+                <span>
+                  Normal
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+            <li
+              className="nav-item active"
+              data-option="mastering-strength"
+            >
+              <a
+                className="nav-link"
+                data-toggle="tab"
+                href="#strength"
+                onClick={[Function]}
+              >
+                <h4>
+                  Mastering Strength
+                </h4>
+                <span>
+                  Normal
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+            <li
+              className="nav-item active"
+              data-option="stereo-width"
+            >
+              <a
+                className="nav-link"
+                data-toggle="tab"
+                href="#stereo"
+                onClick={[Function]}
+              >
+                <h4>
+                  Stereo Width
+                </h4>
+                <span>
+                  Normal
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+            <li
+              className="nav-item active"
+              data-option="volume"
+            >
+              <a
+                className="nav-link"
+                data-toggle="tab"
+                href="#volume"
+                onClick={[Function]}
+              >
+                <h4>
+                  Volume
+                </h4>
+                <span>
+                  Normal
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+            <li
+              className="nav-item"
+              data-option="eq-intensity"
+            >
+              <a
+                className="nav-link"
+                data-toggle="tab"
+                href="#equalizationIntensity"
+                onClick={[Function]}
+              >
+                <h4>
+                  Equalization Intensity
+                </h4>
+                <span>
+                  Normal
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+            <li
+              className="nav-item"
+              data-option="eq"
+            >
+              <a
+                className="nav-link"
+                data-toggle="tab"
+                href="#equalizations"
+                onClick={[Function]}
+              >
+                <h4>
+                  Equalization
+                </h4>
+                <span>
+                  <span
+                    className="slider-block__selection--multi-one"
+                  >
+                    Normal
+                  </span>
+                   - 
+                  <span
+                    className="slider-block__selection--multi-two"
+                  >
+                    Normal
+                  </span>
+                   - 
+                  <span
+                    className="slider-block__selection--multi-three"
+                  >
+                    Normal
+                  </span>
+                </span>
+                <i
+                  className="fa fa-chevron-right"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="em-mastering__footer"
+  >
+    <div
+      className="em-mastering__footer-wrapper"
+      id="masteringFooter"
+    >
+      <a
+        className="button dark"
+        href="#"
+        id="closePreMasterOptions"
+        onClick={[Function]}
+      >
+        Cancel
+      </a>
+      <a
+        className="button pink"
+        href="#"
+        id="preMasterOptionsSaveBtn"
+        onClick={[Function]}
+      >
+         
+        <i
+          className="fa fa-check"
+        />
+         Save and Close
+      </a>
+    </div>
+  </div>
+</div>
+`;
